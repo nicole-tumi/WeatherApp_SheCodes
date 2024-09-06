@@ -214,12 +214,6 @@ a {
         display: flex;
         align-items: center;
     }
-    .search-button img {
-        margin-right: 0px;
-    }
-    .search-text {
-        display: none;
-    }
     .current-city {
         font-size: 32px;
     }
