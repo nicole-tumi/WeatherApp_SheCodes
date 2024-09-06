@@ -73,6 +73,8 @@ main {
 }
 
 .current-temperature {
+    display: flex;
+    align-items: center;
     font-size: 48px;
     color: #529fc6;
 }
@@ -119,13 +121,14 @@ p.current-details {
 }
 
 .current-temperature-icon {
-    position: relative;
-    top: -8px;
-    font-size: 40px;
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    /*background: linear-gradient(180deg, #82c4e4, #82c4e4);*/
+    border-radius: 100%;
 }
 
 .current-temperature-value {
+    margin-left: 10px;
     font-size: 80px;
     font-weight: 500;
 }
@@ -134,7 +137,7 @@ p.current-details {
     font-size: 28px;
     font-weight: 600;
     position: relative;
-    top: -38px;
+    top: -18px;
 }
 
 footer {
@@ -170,7 +173,7 @@ a {
     }
     .current-temperature-unit {
         font-size: 22px;
-        top: -21px;
+        top: -10px;
     }
 }
 
