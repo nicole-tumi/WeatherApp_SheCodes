@@ -197,6 +197,9 @@ a {
 }
 
 @media (max-width: 480px) {
+    .weather-app {
+        padding: 40px 40px 35px;
+    }
     .main-container {
         margin: 20px auto;
         padding: 15px;
@@ -209,8 +212,8 @@ a {
         padding-left: 15px;
     }
     .search-button {
-        padding-left: 13px;
-        padding-right: 13px;
+        padding-left: 18px;
+        padding-right: 18px;
         display: flex;
         align-items: center;
     }
