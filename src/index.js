@@ -10,7 +10,11 @@ function displayTemperature(response) {
     console.log(response.data);
 
     cityElement.innerHTML = response.data.city;
-    descriptionElement.innerHTML = response.data.condition.description;
+
+    let description = response.data.condition.description;
+    descriptionElement.innerHTML =
+        description.charAt(0).toUpperCase() + description.slice(1);
+
     humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
     windElement.innerHTML = `${response.data.wind.speed} Km/h`;
 
