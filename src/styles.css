@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -251,6 +251,10 @@ a {
 }
 
 @media (max-width: 480px) {
+    body {
+        height: 120vh;
+    }
+
     header {
         padding-bottom: 15px;
     }
