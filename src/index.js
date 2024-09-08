@@ -15,8 +15,8 @@ function displayTemperature(response) {
     descriptionElement.innerHTML =
         description.charAt(0).toUpperCase() + description.slice(1);
 
-    humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-    windElement.innerHTML = `${response.data.wind.speed} Km/h`;
+    humidityElement.innerHTML = ` &nbsp;&nbsp;${response.data.temperature.humidity}%`;
+    windElement.innerHTML = ` &nbsp;&nbsp;${response.data.wind.speed} Km/h`;
 
     temperatureElement.innerHTML = temperature;
 
