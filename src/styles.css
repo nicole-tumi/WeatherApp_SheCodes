@@ -252,7 +252,7 @@ a {
 
 @media (max-width: 480px) {
     body {
-        height: 140vh;
+        height: 160vh;
     }
 
     header {
