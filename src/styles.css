@@ -162,6 +162,7 @@ p.current-details {
 
 .weather-forecast-temperatures {
     display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 16px;
     color: #1d5977;
@@ -261,5 +262,29 @@ a {
     }
     .current-details {
         font-size: 14px;
+    }
+    /*Forecast Styles*/
+    .weather-forecast {
+        display: flex;
+        flex-direction: column;
+    }
+    .weather-forecast-day {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .weather-forecast-date {
+        margin-bottom: 0px;
+    }
+    .weather-forecast-icon {
+        font-size: 20px;
+        margin-inline: 25px;
+    }
+    .weather-forecast-temperatures {
+        margin-top: 0px;
+    }
+    .weather-forecast-temp {
+        padding: 0 10px;
     }
 }
